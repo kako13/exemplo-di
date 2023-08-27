@@ -5,7 +5,7 @@ import com.algaworks.di.notificacao.Notificador;
 
 public class AtivacaoClienteService {
 
-	private Notificador notificador;
+	private final Notificador notificador;
 	
 	public AtivacaoClienteService(Notificador notificador) {
 		this.notificador = notificador;

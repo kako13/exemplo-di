@@ -2,9 +2,9 @@ package com.algaworks.di.modelo;
 
 public class Cliente {
 
-	private String nome;
-	private String email;
-	private String telefone;
+	private final String nome;
+	private final String email;
+	private final String telefone;
 	private boolean ativo = false;
 
 	public Cliente(String nome, String email, String telefone) {

@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class Produto {
 
-	private String nome;
-	private BigDecimal valorTotal;
+	private final String nome;
+	private final BigDecimal valorTotal;
 
 	public Produto(String nome, BigDecimal valorTotal) {
 		super();
